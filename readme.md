@@ -37,3 +37,6 @@ Typora開始收費了，我真的嚇到吃手手了。
 
 
 > https://typora.io/dev_release.html
+
+解决typora提示This beta version of Typora is expired, please download and install a newer version
+https://www.zhaojun.ink/archives/typora-newer-version
