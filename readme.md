@@ -40,3 +40,15 @@ Typora開始收費了，我真的嚇到吃手手了。
 
 解决typora提示This beta version of Typora is expired, please download and install a newer version
 https://www.zhaojun.ink/archives/typora-newer-version
+
+上面提示的大概意思是beta版本的typora已经过期了，需要下载最新版本，但是现在正式版的typora是需要收费的。遂在网上寻找解决办法，在此记录一下。
+
+通过修改注册表，可以解决这个问题
+
+win+r 打开运行窗口
+在搜索栏输入regedit，回车后打开注册表
+在注册表中找到：计算机\HKEY_CURRENT_USER\Software\Typora
+鼠标右键Typora，选择权限
+选择Administraors，将下面的权限选择为拒绝
+完全控制，读取
+重新打开Typora，发现可以正常运行了
